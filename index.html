@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather</title>
+<!-- <link rel="stylesheet" href="D:\Web developement\Backend\My Weather\public\styles.css"> -->
+<style>
+    body{
+    background-image: linear-gradient(to right, red,orange,  orange, yellow, orange,orange,  red);
+    font-family: sans-serif;
+}
+.location{
+    width: 60%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+    background: wheat;
+    padding: 40px;
+    padding-bottom: 60px;
+    margin: 10% auto 0;
+    text-align: center;
+}
+.location:hover{
+    background-color: rgb(228, 200, 148);
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 500%;
+} 
+input{
+    color: Black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid;
+    outline: none;
+    background-color:rgb(241, 239, 221) ;
+    text-align: center;
+    font-size: 40px;
+
+}
+input:focus{
+    background-color:rgb(241, 234, 171);
+    
+    
+}
+input:hover{
+    background-color:rgb(241, 234, 171);
+    
+    
+}
+
+button{
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;    
+    font-size: 20px;
+    background-color: rgba(206, 205, 164, 0.719);
+    width: 20%;
+}
+button:hover{
+    background-color: rgb(231, 222, 88);
+}
+button:active{
+    background-color: White;
+}
+/* }
+
+/* .location{
+   display: inline;
+  background-color: black;
+  
+    */
+ 
+
+/* input{
+    
+    width: 50%;
+    background-color: #466eeb;
+    
+    border: 2px solid #466eeb;
+    color: Black;
+    padding: 50px 50px;
+} */
+/* input:hover {
+    background-color: cornsilk;
+} */
+
+/* button{
+    cursor: pointer;
+} */
+/* .back{
+    
+    width: 60%;
+    height: 80px;
+    background-color: #f5dcd0;
+} */
+</style>
+</head>
+<body>
+    
+    <div class= "location">
+        <h1>Know Weather </h1>
+        <h3>of any city in the world!</h3>
+        <form  action="/" method="post">
+            <input type="text" name="CityName" placeholder="Enter City">
+           <p><button type="submit">Let's Go</button></p> 
+            
+        </form>
+    </div>
+    <div class="back"></div>
+    
+</body>
+</html>

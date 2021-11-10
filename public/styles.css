@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(to right, red, yellow);
+}
+h1{
+    color: brown;
+}
+.location{
+    color: brown;
+}
